@@ -1,0 +1,31 @@
+
+.component-categories{
+    background: #F4F4F4;
+    border-radius: 8px; 
+    padding: 30px 30px 10px 30px;
+    margin-bottom: 20px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        transform: scale(1.10);
+        text-decoration: none;
+    }
+
+    .categories-text{
+        font-size: 15px;
+        text-align: center;
+        color: #0C0D36;
+        font-weight: normal;
+        margin-top: 12px;
+    }
+}
+
+.menu-categories{
+    margin-top: -10px !important;
+   
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0 !important;
+}
+
